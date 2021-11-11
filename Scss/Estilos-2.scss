@@ -1,0 +1,533 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Variables */
+$colorAmarillo: rgb(221, 161, 94);
+$colorAmarilloFuerte:#fdc938;
+$colorNegro: #211f20;
+$colorLimon: blanchedalmond;
+$lentarMontserrat:'Montserrat', sans-serif;
+$letraAbril:'Abril Fatface', cursive;
+
+
+
+
+
+
+
+
+
+
+
+
+/* index.html */
+
+.indexHeader{
+color:  $colorAmarillov;
+text-decoration:underline;
+font-family: $letraAbril;
+font-size: 150%;
+text-align: center;
+background-color: $colorNegro;
+}
+
+
+
+
+
+
+.NavIndex {
+background-color:$colorAmarilloFuerte;
+
+}
+
+.NavIndex a {
+display: inline;
+float: none;
+text-align: center;
+text-decoration: none;
+font-size: 20px;
+margin-bottom: 8px;
+margin-left: 43px;
+font-family: $lentarMontserra;
+color: black;
+
+}
+
+.NavIndex a:hover{
+color: $colorLimon;
+
+}
+
+
+.sectionIndex  {
+
+/*display: grid;
+grid-template-columns:640px,640px,640px;
+grid-template-rows: 479px;
+*/
+
+text-align: center;
+font-family: $lentarMontserra;
+color:#ffffff;
+word-spacing: 5px;
+letter-spacing: 3px;
+background-color:$colorNegro;
+height: 400px;
+margin-top: -18px;
+}
+
+
+
+.sectionIndex h3 {
+margin-left: 175px;
+margin-right: 175px;
+
+}
+
+.section-index-border{
+background-color: $colorAmarilloFuerte;
+height:10px;
+
+}
+
+.h2Index h2{
+text-decoration: underline;
+text-align: center;
+background-color: $colorNegro;
+height: 500px;
+}
+
+.footerIndex {
+color: $colorAmarilloFuerte8;
+font-family: $lentarMontserra;
+text-align: center;
+background-color: $colorNegro;
+
+}
+
+.p1{
+display: flex;
+flex-direction: row;
+justify-content: center;
+transform: scale(0.6,0.6);
+}
+
+.IMGindex1{
+width: 50px;
+
+
+}
+
+
+
+/*producto.html*/
+
+.bodyProduct{
+
+display: grid;
+grid-template-areas: 
+"heder heder heder"
+"nav nav nav"
+"sec . ."
+"tabla . ."
+;
+
+}
+
+.prodoHeader{
+grid-area: heder;
+
+}
+
+.BotonProduc1{
+grid-area: nav;
+
+}
+
+
+.prodoList{
+grid-area: sec;
+
+}
+
+.tableProduct1{
+grid-area:tabla;
+
+
+}
+
+.prodoHeader {
+color:  $colorAmarillo;
+font-family: $letraAbril;
+background-color: $colorNegro;
+text-align: center;
+}
+
+.section-product-border{
+height: 2px;
+background-color:$colorAmarilloFuerte ;
+}
+
+.TitleProd{ 
+text-decoration: underline;
+
+
+}
+
+.BotonProduc{
+display: inline;
+float: none;
+text-align: center;
+text-decoration: none;
+font-size: 20px;
+font-family:$lentarMontserra;
+color: black;
+}
+
+.BotonProduc1 a:hover {
+color: $colorLimon;
+}
+
+.BotonProduc1{
+background-color: $colorAmarilloFuerte;
+
+
+}
+
+.NewProd{
+background-color: $colorAmarilloFuerte;
+margin-top: 30px;
+margin-bottom: 30px;
+border-bottom: 10px;
+
+}
+
+.NewProd__titulo{
+font-family:$letraAbril;
+}
+.NewProd__H3{
+font-family:$lentarMontserra;
+
+}
+
+.ProdCeliac{
+background-color: $colorAmarilloFuerte;
+margin-top: 30px;
+margin-bottom: 30px;
+border-bottom: 10px;
+
+}
+
+
+.ProdCeliac__Titulo{
+font-family: $letraAbril;
+
+
+}
+
+.ProdCeliac__Texto{
+font-family:$lentarMontserra;
+
+
+}
+
+
+.ProdDiab{
+background-color: $colorAmarilloFuerte;
+margin-top: 30px;
+margin-bottom: 30px;
+border-bottom: 10px;
+}
+
+
+.ProdDiab__titulo{
+font-family: $letraAbril;
+}
+
+.ProdDiab__texto{
+font-family:$lentarMontserra;
+}
+
+.ProdVeg{
+background-color: $colorAmarilloFuerte;
+margin-top: 30px;
+margin-bottom: 30px;
+border-bottom: 10px;
+}
+
+.ProdVeg__titulo{
+font-family: $letraAbril;
+}
+
+
+.ProdVeg__texto{
+font-family:$lentarMontserra;
+}
+
+.bodyProducto2{
+background-color: $colorNegro;
+
+}
+
+
+/*contacto.html*/
+
+.bodyContact{
+display: grid;
+grid-template-areas: 
+"hederC hederC hederC"
+"navC navC navC"
+". tablaC ."
+;
+
+}
+
+.contactHeader{
+grid-area: hederC;
+
+}
+
+.BotonContact1{
+grid-area: navC;
+    
+}
+
+.contactSect{
+grid-area:tablaC;
+
+
+}
+
+.contactHeader {
+color: $colorAmarillo;
+font-family: $letraAbril;
+background-color: $colorNegro;
+text-align: center;
+
+}
+
+.BotonContact{
+display: inline;
+float: none;
+text-align: center;
+text-decoration: none;
+font-size: 20px;
+font-family: $lentarMontserra;
+color:$colorNegro;
+}
+
+.section-contact-border{
+height: 2px;
+background-color:$colorAmarilloFuerte ;
+}
+
+.BotonContact1{
+
+background-color: $colorAmarilloFuerte;
+
+}
+
+.BotonContact1 a:hover {
+color: $colorLimon;
+}
+
+.titleContact{
+text-decoration: underline;
+
+}
+
+.contactSect {
+text-align: center;
+
+}
+
+/* Ubicacion.html */
+
+.bodyEnv{
+display: grid;
+grid-template-areas: 
+"hederU hederU hederU"
+"navU navU navU"
+"title . ."
+"txt1 . ."
+"ubi . ."
+;
+
+}
+
+.hederEnv {
+grid-area: hederU;
+
+}
+
+.BotonEnv1 {
+grid-area: navU;
+
+
+}
+
+.mapaUbiTiltle{
+grid-area: title;
+margin-left: 536px;
+margin-bottom: 10px;
+margin-top: 10px;
+}    
+
+.mapaUbiTxt{
+grid-area: txt1;
+margin-left: 200px;
+font-family: $lentarMontserra;
+padding-right: 300px;
+margin-bottom: 20px;
+
+}
+
+.mapaUbi{
+grid-area: ubi;
+margin-left: 330px;
+margin-bottom: 50px;
+    background-color: $colorNegro;
+    margin-right: 297px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+
+
+.hederEnv {
+color:  $colorAmarillo;
+font-family: $letraAbril;
+background-color: $colorNegro;
+text-align: center;
+}
+
+.section-env-border{
+height: 2px;
+background-color:$colorAmarilloFuerte;
+
+}
+
+
+.titleEnv{
+text-decoration: underline;
+
+}
+
+
+.BotonEnv{
+display: inline;
+float: none;
+text-align: center;
+text-decoration: none;
+font-size: 20px;
+font-family:$lentarMontserra;
+color: black;
+
+}
+
+.BotonEnv1{
+background-color:$colorAmarilloFuerte ;
+
+}
+
+.BotonEnv1 a:hover {
+color:$colorLimon;
+}
+
+.mapaUbiTiltle{
+font-family:$lentarMontserra;        
+}    
+
+
+
+
+
+/* galeria.html */
+
+.headerGal {
+color:  $colorAmarillo;
+font-family: $letraAbril;
+background-color: $colorNegro;
+text-align: center;
+text-decoration: underline;
+}
+
+.hederGal1{
+height: 2px;
+background-color:$colorAmarilloFuerte ;
+
+
+}
+
+
+.BotonGaler {
+display: inline;
+float: none;
+text-align: center;
+text-decoration: none;
+font-size: 20px;
+font-family:$lentarMontserra;
+color: black;
+
+}
+
+.BotonGaler1 a:hover{
+color: $colorLimon;
+}
+
+.BotonGaler1{
+background-color: $colorAmarilloFuerte;
+
+}
+
+
+.Sech2Gal  {
+color:rgb(40, 54, 24);
+text-align: center;
+}
+
+
+.IMG1 {
+display: grid;
+grid-template-columns: 300px 500px;
+grid-template-rows: 535px ;
+justify-content: space-around;
+
+
+}
+
+@media only screen and (max-width: 768px) {
+.IMG1 {
+    grid-template-columns: 1fr;
+}
+
+}
+
+@media only screen and (max-width: 320px) {
+    .IMG1 {
+        grid-template-columns: 1fr;
+    }
+    
+    }
+
+
+/* GALERIA 2
+.Gal2Foto{
+color:  rgb(221, 161, 94);
+text-decoration:underline;
+background-color: #211f20; 
+font-family: 'Abril Fatface', cursive;
+font-size: 150%;
+text-align: center;
+margin-bottom: 5px;
+} */
+
+
+

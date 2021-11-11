@@ -1,0 +1,512 @@
+    * {
+        margin: 0%;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+/* index.html */
+
+.indexHeader{
+    color:  rgb(221, 161, 94);
+    text-decoration:underline;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 150%;
+    text-align: center;
+    background-color: #211f20;
+}
+
+
+
+
+
+
+.NavIndex {
+    background-color:#fdc938;
+
+}
+
+.NavIndex a {
+    display: inline;
+    float: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 8px;
+    margin-left: 43px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    
+}
+
+.NavIndex a:hover{
+    color: blanchedalmond;
+
+}
+
+
+.sectionIndex  {
+
+    /*display: grid;
+    grid-template-columns:640px,640px,640px;
+    grid-template-rows: 479px;
+    */
+    
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color:#ffffff;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    background-color: #211f20;
+    height: 400px;
+    margin-top: -18px;
+}
+
+
+
+.sectionIndex h3 {
+    margin-left: 175px;
+    margin-right: 175px;
+
+}
+
+.section-index-border{
+    background-color: #fdc938;
+    height:10px;
+    
+}
+
+.h2Index h2{
+    text-decoration: underline;
+    text-align: center;
+    background-color: #211f20;
+    height: 500px;
+}
+
+.footerIndex {
+    color: #fdc938;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #211f20;
+
+}
+
+.p1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transform: scale(0.6,0.6);
+}
+
+.IMGindex1{
+width: 50px;
+
+
+}
+
+
+
+/*producto.html*/
+
+.bodyProduct{
+
+display: grid;
+grid-template-areas: 
+"heder heder heder"
+"nav nav nav"
+"sec . ."
+"tabla . ."
+;
+
+}
+
+.prodoHeader{
+grid-area: heder;
+
+}
+
+.BotonProduc1{
+grid-area: nav;
+    
+    }
+
+    
+.prodoList{
+grid-area: sec;
+
+}
+
+.tableProduct1{
+grid-area:tabla;
+
+
+}
+
+.prodoHeader {
+    color:  rgb(221, 161, 94);
+    font-family: 'Abril Fatface', cursive;
+    background-color: #211f20;
+    text-align: center;
+}
+
+.section-product-border{
+height: 2px;
+background-color:#fdc938 ;
+}
+
+.TitleProd{ 
+    text-decoration: underline;
+
+
+}
+
+.BotonProduc{
+    display: inline;
+    float: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.BotonProduc1 a:hover {
+    color: blanchedalmond;
+}
+
+.BotonProduc1{
+background-color: #fdc938;
+
+
+}
+
+.NewProd{
+    background-color: #fdc938;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 10px;
+    
+}
+
+.NewProd__titulo{
+    font-family: 'Abril Fatface', cursive;
+}
+.NewProd__H3{
+    font-family:'Montserrat', sans-serif;
+
+}
+
+.ProdCeliac{
+    background-color: #fdc938;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 10px;
+
+}
+
+
+.ProdCeliac__Titulo{
+    font-family: 'Abril Fatface', cursive;
+
+
+}
+
+.ProdCeliac__Texto{
+    font-family:'Montserrat', sans-serif;
+
+
+}
+
+
+.ProdDiab{
+    background-color: #fdc938;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 10px;
+}
+
+
+.ProdDiab__titulo{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.ProdDiab__texto{
+    font-family:'Montserrat', sans-serif;
+}
+
+.ProdVeg{
+    background-color: #fdc938;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 10px;
+}
+
+.ProdVeg__titulo{
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+.ProdVeg__texto{
+    font-family:'Montserrat', sans-serif;
+}
+
+.bodyProducto2{
+    background-color: #211f20;
+
+}
+
+
+/*contacto.html*/
+
+.bodyContact{
+    display: grid;
+    grid-template-areas: 
+    "hederC hederC hederC"
+    "navC navC navC"
+    ". tablaC ."
+    ;
+    
+}
+    
+    .contactHeader{
+    grid-area: hederC;
+    
+}
+    
+    .BotonContact1{
+    grid-area: navC;
+        
+}
+    
+    .contactSect{
+    grid-area:tablaC;
+    
+    
+}
+
+.contactHeader {
+    color:  rgb(221, 161, 94);
+    font-family: 'Abril Fatface', cursive;
+    background-color: #211f20;
+    text-align: center;
+
+}
+
+.BotonContact{
+    display: inline;
+    float: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.section-contact-border{
+    height: 2px;
+    background-color:#fdc938 ;
+}
+
+.BotonContact1{
+
+background-color: #fdc938;
+
+}
+
+.BotonContact1 a:hover {
+    color: blanchedalmond;
+}
+
+.titleContact{
+text-decoration: underline;
+
+}
+
+.contactSect {
+    text-align: center;
+
+}
+
+/* Ubicacion.html */
+
+.bodyEnv{
+    display: grid;
+    grid-template-areas: 
+    "hederU hederU hederU"
+    "navU navU navU"
+    "title . ."
+    "txt1 . ."
+    "ubi . ."
+    ;
+    
+    }
+    
+    .hederEnv {
+    grid-area: hederU;
+    
+    }
+    
+    .BotonEnv1 {
+    grid-area: navU;
+    
+    
+    }
+    
+    .mapaUbiTiltle{
+    grid-area: title;
+    margin-left: 536px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    }    
+    
+    .mapaUbiTxt{
+    grid-area: txt1;
+    margin-left: 200px;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 300px;
+    margin-bottom: 20px;
+    
+    }
+
+    .mapaUbi{
+    grid-area: ubi;
+    margin-left: 330px;
+    margin-bottom: 50px;
+        background-color: #211f20;
+        margin-right: 297px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+
+
+.hederEnv {
+    color:  rgb(221, 161, 94);
+    font-family: 'Abril Fatface', cursive;
+    background-color: #211f20;
+    text-align: center;
+}
+
+.section-env-border{
+    height: 2px;
+    background-color:#fdc938 ;
+
+}
+
+
+.titleEnv{
+text-decoration: underline;
+
+}
+
+
+.BotonEnv{
+    display: inline;
+    float: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+
+}
+
+.BotonEnv1{
+    background-color:#fdc938 ;
+
+}
+
+.BotonEnv1 a:hover {
+    color: blanchedalmond;
+}
+
+.mapaUbiTiltle{
+    font-family:'Montserrat', sans-serif;        
+}    
+
+
+
+
+
+/* galeria.html */
+
+.headerGal {
+    color:  rgb(221, 161, 94);
+    font-family: 'Abril Fatface', cursive;
+    background-color: #211f20;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.hederGal1{
+    height: 2px;
+    background-color:#fdc938 ;
+
+
+}
+
+
+.BotonGaler {
+    display: inline;
+    float: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+
+}
+
+.BotonGaler1 a:hover{
+    color: blanchedalmond;
+}
+
+.BotonGaler1{
+    background-color: #fdc938;
+
+}
+
+
+.Sech2Gal  {
+    color:rgb(40, 54, 24);
+    text-align: center;
+}
+
+
+.IMG1 {
+    display: grid;
+    grid-template-columns: 300px 500px;
+    grid-template-rows: 535px ;
+    justify-content: space-around;
+
+
+}
+
+@media only screen and (max-width: 768px) {
+	.IMG1 {
+        grid-template-columns: 1fr;
+    }
+    
+    }
+
+    @media only screen and (max-width: 320px) {
+        .IMG1 {
+            grid-template-columns: 1fr;
+        }
+        
+        }
+
+
+/* GALERIA 2
+.Gal2Foto{
+    color:  rgb(221, 161, 94);
+    text-decoration:underline;
+    background-color: #211f20; 
+    font-family: 'Abril Fatface', cursive;
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 5px;
+} */
+
+
+
